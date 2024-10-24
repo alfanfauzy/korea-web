@@ -6,8 +6,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative px-16 py-4 flex justify-between items-center w-full">
-        <a className="text-3xl font-bold leading-none" href="#">
+      <nav className="relative desktop:px-5 px-16 py-4 flex justify-between items-center w-full gap-1">
+        <a className="text-3xl font-bold leading-none basis-1/4" href="#">
           <Image
             src="/assets/icon/logo-navbar.svg"
             alt="Logo Navbar"
@@ -31,23 +31,23 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 desktop:mx-auto desktop:flex desktop:flex-row desktop:items-center desktop:w-auto desktop:gap-10">
+        <ul className="hidden align-middle desktop:flex desktop:w-full desktop:justify-center desktop:gap-6">
           <li>
             <a
-              className="text-xs  text-white opacity-50 hover:text-gray-500"
+              className="text-sm  text-white opacity-50 hover:text-gray-500"
               href="#"
             >
               스튜디오
             </a>
           </li>
           <li>
-            <a className="text-xs  text-white opacity-50" href="#">
+            <a className="text-sm  text-white opacity-50" href="#">
               워크센터
             </a>
           </li>
           <li>
             <a
-              className="text-xs  text-white opacity-50 hover:text-gray-500"
+              className="text-sm  text-white opacity-50 hover:text-gray-500"
               href="#"
             >
               손비서
@@ -55,7 +55,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className="text-xs  text-white opacity-50 hover:text-gray-500"
+              className="text-sm  text-white opacity-50 hover:text-gray-500"
               href="#"
             >
               메타휴먼
@@ -63,7 +63,7 @@ const Navbar = () => {
           </li>
           <li className="relative">
             <a
-              className="text-xs  text-white  hover:text-gray-500  font-bold"
+              className="text-sm  text-white  hover:text-gray-500  font-bold"
               href="#"
             >
               영상제작소
@@ -72,7 +72,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className="text-xs  text-white opacity-50 hover:text-gray-500"
+              className="text-sm  text-white opacity-50 hover:text-gray-500"
               href="#"
             >
               공지사항
@@ -80,24 +80,24 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              className="text-xs  text-white opacity-50 hover:text-gray-500"
+              className="text-sm  text-white opacity-50 hover:text-gray-500"
               href="#"
             >
               제휴문의
             </a>
           </li>
         </ul>
-        <ul className="hidden desktop:flex flex-row gap-10">
+        <ul className="hidden desktop:flex desktop:flex-row desktop:justify-end gap-10 basis-1/4">
           <li>
             <a
-              className="text-xs  text-white opacity-50 hover:text-gray-500"
+              className="text-sm text-white opacity-50 hover:text-gray-500"
               href="#"
             >
               로그인
             </a>
           </li>
           <li>
-            <a className="text-xs  text-blue-600 font-bold" href="#">
+            <a className="text-sm  text-blue-600 font-bold" href="#">
               <Image
                 src="/assets/icon/globe-icon.svg"
                 alt="globe icon"

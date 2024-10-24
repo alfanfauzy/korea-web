@@ -2,7 +2,7 @@ import React from "react";
 
 const Section1 = () => {
   return (
-    <section className="-mt-[1px] py-16 bg-black w-full flex flex-col gap-16">
+    <section className="-mt-[1px] py-16 px-5 bg-black w-full flex flex-col gap-16 items-center">
       <h3 className="desktop:block hidden text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold text-2xl">
         영상 제작소
       </h3>
@@ -56,7 +56,7 @@ const Section1 = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center align-middle gap-10 desktop:px-96 px-20">
+      <div className="flex flex-col items-center align-middle gap-10 max-w-xl desktop:max-w-3xl">
         <h2 className="text-3xl text-white font-bold">
           AI VIDEO ON YOUR DEMAND
         </h2>
