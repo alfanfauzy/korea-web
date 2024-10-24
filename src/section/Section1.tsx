@@ -12,42 +12,42 @@ const Section1 = () => {
                 받아보세요.
             </h1>
             <div className="flex justify-center">
-                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54]  desktop:w-40 desktop:h-40 w-28 h-28">
+                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54]  desktop:w-40 desktop:h-40 w-20 h-20">
                     <div className="rounded-full bg-black p-8 flex flex-col items-center justify-center h-full w-full">
-                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-lg">
+                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-sm">
                             Fast
                         </span>
                         <span className="desktop:block hidden font-light text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase text-lg">
                             X2
                         </span>
                     </div>
-                    <div className="absolute z-50 -right-2 desktop:top-20 top-14 bg-black w-5 h-1" />
+                    <div className="absolute z-50 desktop:-right-2 -right-1 desktop:top-20 top-10 bg-black desktop:w-5 w-3 h-1" />
                 </div>
-                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] desktop:w-40 desktop:h-40 w-28 h-28">
+                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] desktop:w-40 desktop:h-40 w-20 h-20">
                     <div className="rounded-full bg-black p-8 flex flex-col items-center justify-center h-full w-full">
-                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-lg">
+                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-sm">
                             Quality
                         </span>
                         <span className="desktop:block hidden font-light text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase text-lg">
                             A++
                         </span>
                     </div>
-                    <div className="absolute z-50 -right-2 desktop:top-20 top-14 bg-black w-5 h-1" />
+                    <div className="absolute z-50 desktop:-right-2 -right-1 desktop:top-20 top-10 bg-black desktop:w-5 w-3 h-1" />
                 </div>
-                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] desktop:w-40 desktop:h-40 w-28 h-28">
+                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] desktop:w-40 desktop:h-40 w-20 h-20">
                     <div className="rounded-full bg-black p-8 flex flex-col items-center justify-center h-full w-full">
-                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-lg">
+                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-sm">
                             Low Price
                         </span>
                         <span className="desktop:block hidden font-light text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase text-lg">
                             1/2
                         </span>
                     </div>
-                    <div className="absolute z-50 -right-2 desktop:top-20 top-14 bg-black w-5 h-1" />
+                    <div className="absolute z-50  desktop:-right-2 -right-1 desktop:top-20 top-10 bg-black desktop:w-5 w-3 h-1" />
                 </div>
-                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] desktop:w-40 desktop:h-40 w-28 h-28">
+                <div className="relative p-1 rounded-full bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] desktop:w-40 desktop:h-40 w-20 h-20">
                     <div className="rounded-full bg-black p-8 flex flex-col items-center justify-center h-full w-full">
-                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-lg">
+                        <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase font-bold desktop:text-2xl text-sm">
                             High Tech
                         </span>
                         <span className="desktop:block hidden font-light text-center text-transparent bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] uppercase text-lg">
@@ -57,7 +57,7 @@ const Section1 = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center align-middle gap-10 max-w-xl desktop:max-w-3xl">
-                <h2 className="text-3xl text-white font-bold">
+                <h2 className="text-3xl text-white font-bold text-center">
                     AI VIDEO ON YOUR DEMAND
                 </h2>
                 <h3 className="desktop:text-lg  text-2xl text-white/50 text-center text-pretty">
