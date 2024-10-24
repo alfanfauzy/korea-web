@@ -118,8 +118,8 @@ const Section3 = () => {
             <div className="relative p-1 rounded-4xl mobile:bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-full">
               <div className=" bg-black flex flex-col rounded-4xl  items-center justify-center h-full w-full">
                 <div className="w-full p-5 flex flex-row gap-10">
-                  <div className="relative rounded-3xl bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-28 h-28 flex flex-col items-center gap-1 p-3 drop-shadow-xl">
-                    <h2 className="font-light text-sm">STEP1</h2>
+                  <div className="relative rounded-3xl bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-28 h-28 flex flex-col items-center gap-1 p-3">
+                    <h2 className="text-white font-light text-sm">STEP1</h2>
                     <Image
                       src="/assets/icon/edit-icon.svg"
                       alt="Icon Edit"
@@ -135,8 +135,8 @@ const Section3 = () => {
                   </div>
                 </div>
                 <div className="w-full p-5 flex flex-row gap-10">
-                  <div className="relative rounded-3xl bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-28 h-28 flex flex-col items-center gap-1 p-3 shadow-xl">
-                    <h2 className="font-light text-sm">STEP2</h2>
+                  <div className="relative rounded-3xl bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-28 h-28 flex flex-col items-center gap-1 p-3">
+                    <h2 className="text-white font-light text-sm">STEP2</h2>
                     <Image
                       src="/assets/icon/edit-icon.svg"
                       alt="Icon Edit"
@@ -153,8 +153,8 @@ const Section3 = () => {
                   </div>
                 </div>
                 <div className="w-full p-5 flex flex-row gap-10">
-                  <div className="relative rounded-3xl bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-28 h-28 flex flex-col items-center gap-1 p-3 shadow-xl">
-                    <h2 className="font-light text-sm">STEP3</h2>
+                  <div className="relative rounded-3xl bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] w-28 h-28 flex flex-col items-center gap-1 p-3">
+                    <h2 className="text-white font-light text-sm">STEP3</h2>
                     <Image
                       src="/assets/icon/player-icon.svg"
                       alt="Player Edit"
