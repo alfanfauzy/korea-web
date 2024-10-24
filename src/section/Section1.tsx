@@ -67,8 +67,8 @@ const Section1 = () => {
         </h3>
         <h3 className="desktop:text-lg  text-2xl text-white/50 text-center text-pretty">
           가격은 절반으로, 속도는 두배로, 품질은 A++! 기업 홍보, 제품 소개, 교육
-          및 행사, 정보 및 안내 영상 등 당신이 필요한 '그 영상'을 플루닛
-          영상제작소에 맡겨주세요.
+          및 행사, 정보 및 안내 영상 등 당신이 필요한 &apos;그 영상&apos;을
+          플루닛 영상제작소에 맡겨주세요.
         </h3>
       </div>
       {/** Blurry horizontal Divider */}
